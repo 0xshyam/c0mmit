@@ -2,7 +2,7 @@ name: Daily Commits
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # Adjust the cron schedule to your preferred time
+    - cron: '45 * * * *'  # Adjust the cron schedule to your preferred time
 
 jobs:
   commit:
